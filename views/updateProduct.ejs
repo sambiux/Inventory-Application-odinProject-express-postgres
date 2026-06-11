@@ -1,0 +1,62 @@
+<!-- views/updateUser.ejs -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Update Product</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+        body{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 10vh;
+          color: #2563eb;
+          width: 100%;
+          overflow: hidden;
+          font-family: "Archivo Black", sans-serif;
+          font-weight: 400;
+          font-style: normal;
+       }
+        form{
+          display: flex;
+          flex-direction: column;
+          gap: 2vh;
+          border: 2px solid gray;
+          border-radius: 12px;
+          padding: 9vh;
+          box-shadow: 2px 2px 2px blue;
+        }
+
+        form input{
+          border-radius: 7px;
+        }
+
+        form button{
+          border: 2px solid black;
+          border-radius: 6px;
+          padding: 7px;
+          background-color: #2563eb;
+          color: white;
+          font-family: "Archivo Black", sans-serif;
+          transition:
+            200ms transform ease-in 200ms
+          ;
+        }
+
+        form button:hover{
+          transform: translateY(7px);
+        }
+    </style>
+  </head>
+<body>
+  <h1>Update Product</h1>
+  <form action="/products/<%= product.id %>/update" method="POST">
+    <label for="nombre">Name price</label>
+    <input type="text" name="nombre" required>
+    <label for="precio">Price</label>
+    <input type="text" name="precio" required>
+    <button type="submit">Update User</button>
+  </form>
+  <a href="/">Back to home</a>
+</body>
+</html>
