@@ -133,15 +133,26 @@ http://localhost:3000
 
 ### Update Product
 
-* Edit product information.
+* <img width="1751" height="870" alt="image" src="https://github.com/user-attachments/assets/819b8e71-bda4-45b6-9715-eed9e3e4cd7c" />
+* <img width="1583" height="873" alt="image" src="https://github.com/user-attachments/assets/48696778-e2ec-4dde-9ec9-e1df1977eacd" />
+* <img width="358" height="250" alt="image" src="https://github.com/user-attachments/assets/7a27b58d-e1e8-4630-a86a-d3527c918b37" />
+
+
 
 ### Delete Product
 
-* Remove products from the inventory.
+* <img width="333" height="255" alt="image" src="https://github.com/user-attachments/assets/91c2287c-2069-446c-a565-fc733b0a2843" />
+* <img width="1913" height="908" alt="image" src="https://github.com/user-attachments/assets/06fc33a3-2b50-4158-9241-2e87c2505a97" />
+
+
 
 ### Search Product
 
-* Search products by name using PostgreSQL queries.
+* <img width="1911" height="896" alt="image" src="https://github.com/user-attachments/assets/b80fd032-24ff-4cf4-b2ee-71797f8bb97e" />
+* <img width="343" height="167" alt="image" src="https://github.com/user-attachments/assets/4722f290-bdc0-4fcb-9ab1-08258033374c" />
+* <img width="1907" height="908" alt="image" src="https://github.com/user-attachments/assets/401206a7-c555-4453-9301-b30a437fae9e" />
+
+
 
 ---
 
