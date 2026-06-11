@@ -53,6 +53,11 @@
         box-shadow:0 4px 10px rgba(0,0,0,0.08);
     }
 
+    .card img{
+        width: 15vw;
+        height: 25vh;
+        object-fit: contain;
+    }
     .card h3{
         margin-bottom:1rem;
     }
@@ -108,6 +113,10 @@
                 <p class="price">
                     $<%= product.precio %>
                 </p>
+                
+                <div>
+                    <img src="<%= product.imagen_url %>" alt="">
+                </div>
 
             </div>
 

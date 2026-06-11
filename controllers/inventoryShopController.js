@@ -47,8 +47,8 @@ async function UpdateProductGet(req, res){
 }
 
 async function createProductController(req, res){
-    const {nombre, precio, category_id} = req.body;
-    await db.createProductPost(nombre, precio, category_id);
+    const {nombre, precio, imagen_url, category_id} = req.body;
+    await db.createProductPost(nombre, precio, imagen_url, category_id);
     res.redirect("/")
 }
 

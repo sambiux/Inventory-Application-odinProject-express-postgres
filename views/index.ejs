@@ -99,6 +99,12 @@
         margin-bottom:1rem;
     }
 
+    .card img{
+        width: 15vw;
+        height: 20vh;
+        object-fit: contain;
+    }
+
     .price{
         color:#2563eb;
         font-weight:bold;
@@ -202,6 +208,8 @@
                 <div class="card">
 
                     <h3><%= product.nombre %></h3>
+
+                    <img src="<%= product.imagen_url %>" alt="">
 
                     <p>
                         Categoría:
